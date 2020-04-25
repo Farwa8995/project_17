@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: Poppins, sans-serif;
+}
+
+.navbar{
+    display:grid;
+    grid-template-rows:25vh;
+    grid-template-columns:20% 30% 30%;
+    /* border:1px solid; */
+    background-image:linear-gradient(rgba(255, 255, 255, 0.97), rgba(255,255,255,0.97)),url('logo.png');
+    background-size:100% 100%;
+   /* background-position:-40px ; */
+   align-items: center;
+   justify-content: space-around;
+    position:sticky;
+    top:0; 
+    z-index:3; 
+}
+.icons i:nth-child(1)
+{
+padding: 10.5px 14.5px;
+}
+.icons i:nth-child(2)
+{
+    padding: 9px 12px;
+    line-height: 1.1em;
+}
+.icons i:nth-child(3)
+{
+    padding: 9px 12px; 
+    line-height: 1.2em;
+}
+.icons i:nth-child(4)
+{
+    padding: 9px 14px; 
+    line-height: 1.3em;
+}
+.icons i:hover{
+    transform:rotate(360deg);
+     transition:all 2s; 
+}
+.logo{
+    /* border:1px solid; */
+}
+.logo img{
+    height:100%;
+    width:100%;
+}
+ul{
+    /* border:1px solid; */
+    display:flex;
+    justify-content: space-between;
+    font-size:20px ;
+    text-transform: uppercase;
+    align-items:center;
+    
+
+}
+.active{
+    color:#FF3271;
+    
+   
+}
+li:hover{
+    color:#FF3271;
+
+}
+.icons{
+    /* border:1px solid black; */
+   display:flex;
+    justify-content: space-evenly;
+}
+.icons i{
+    background:palevioletred;
+    padding:12px; 
+    border-radius:50%;
+    /* border:1px solid black; */
+    font-size:20px;
+    color:white;
+
+
+}
+i:hover{
+    transform:rotate(360deg);
+}
+.header{
+    display:grid;
+    /* border:1px solid;   */
+    grid-template-rows:40vh;
+    /* position:relative; */
+    background:#FAFAFA;
+}
+.header h1{
+    position: absolute;
+    font-size:60px;
+    left:47%;
+    top:42%;
+    text-transform: uppercase;
+}
+.circle{
+    height:20vh;
+    width:10%;
+    background:rgba(255, 217, 0, 0.507);
+    border-radius: 50%;
+    position:relative;
+    left:45%;
+    top:26%;
+}
+.main{
+    /* border:1px solid; */
+    display:grid;
+    grid-template-rows:60vh 80vh;
+    /* align-items: space-evenly; */
+    justify-content: space-evenly;
+    
+}
+.main1{
+    /* border:1px solid; */
+    display:grid;
+    grid-template-columns:30% 55% ;
+    justify-content: space-evenly;
+}
+.section1{
+    /* border:1px solid; */
+    /* background: pink; */
+    color: #333333;
+    display: grid; */
+    grid-template-rows:30vh 40vh;
+    
+
+}
+.c-details{
+    background:#F7F7F7;
+    display:grid;
+
+}
+.change{
+    color:#FF3271;
+}
+.c-details i{
+    color:#FF3271;
+}
+.c-details1{
+    /* background:red; */
+}
+h2{
+font-size:37px;
+}
+
+.section2{
+    /* border:1px solid; */
+}
+.io{
+    background:#F7F7F7;
+    height:8vh;
+    width:43%;
+    font-size:15px;
+    margin-left:5%;
+    margin-top:3%;
+    border-radius:10px;
+    outline: none;
+    border:1px solid lightgray;
+}
+.uo:hover{
+    border:1px solid #FF3271;
+}
+.io:hover{
+    border:1px solid #FF3271;
+
+}
+.uo{
+    height:17vh;
+    width:92%;
+    margin-left:5%;
+    margin-top:3%;
+    font-size:18px;
+    border-radius:10px;
+    outline: none;
+    border:1px solid lightgray;
+    background:#F7F7F7;
+}
+.btn-1{
+    height:10vh;
+    width:30%;
+    border-radius:35px;
+    margin-top:2%;
+    margin-left:5%;
+    outline:none;
+    border:none;
+    background-image:linear-gradient(to right bottom,purple,yellow,red);
+}
+.main2{
+    /* border:1px solid; */
+    /* background-image:url('map.png'); */
+    /* background-size: 100% 100%; */
+}
+.main2 img{
+    height:100%;
+    width:100%;
+    /* display:flex;
+    justify-content: space-around;
+    align-items:flex-end; */
+}
+.footer{
+    /* margin-left:1.3%; */
+    /* margin-top:2%; */
+    background:#F4F9FF;
+    display:flex;
+    flex-direction: column;
+    height:40vh;
+    width:100%;
+    justify-content: space-around;
+    align-items:center;
+   
+    
+
+    
+    
+}
+.footer img{
+    height:25%;
+    width:20%;
+    /* border:1px solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.icons2 i{
+    background:palevioletred;
+    padding:12px;  
+    border-radius:50%;
+    font-size:20px;
+}
+
+.icons2 i:nth-child(1)
+{
+padding: 10.5px 14.5px;
+}
+.icons2 i:nth-child(2)
+{
+    padding: 9px 12px;
+    line-height: 1.1em;
+}
+.icons2 i:nth-child(3)
+{
+    padding: 9px 12px; 
+    line-height: 1.2em;
+}
+.icons2 i:nth-child(4)
+{
+    padding: 9px 14px; 
+    line-height: 1.3em;
+}
+.icons2 i:hover{
+    transform:rotate(360deg);
+     transition:all 1s; 
+}
